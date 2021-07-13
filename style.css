@@ -1,0 +1,254 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles and utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header section */
+
+header{
+    background-color: #2D25A0;;
+}
+
+
+
+.flexible-container{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+   
+}
+
+.half-width{    
+    width: 50%;
+}
+
+.flexible-container .first{
+    padding-left: 165px;
+}
+
+.flexible-container .second{
+    padding-left: 50px;
+    padding-right: 110px;
+}
+
+.half-width h1{
+    margin: 0;
+    margin-bottom: 27px;
+    font-size:64px;
+    color: #FFFFFF;
+}
+
+.half-width a{
+    margin-top: 27px;
+    background-color: #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px; 
+    color: #FFFFFF;
+
+}
+
+.half-width a > span{
+    margin-left: 8px;
+}
+
+
+.half-width img{
+    width: 556.01px;
+    height: 438px;
+}
+
+
+/* -------------
+        main 
+-----------------*/
+
+/* players */
+
+.players{
+    margin: 70px 180px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px ;
+    grid-row-gap:30px ;
+    justify-items: center;
+}
+
+.player-info {
+    width: 300px;
+    height: 450px;
+    padding: 15px;   
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);;
+}
+
+.player-info img{
+    width: 300px;
+    height: 256px;
+}
+.player-info .player-name{
+    font-size: 28px;
+    color: #18191F;
+}
+.player-info .player-description{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    
+}
+
+footer .footer-item img{
+    width: 484px;
+    height: 110px;
+}
+
+footer .footer-item .social-icons {
+    margin: auto;
+    text-align: center;  
+    
+}
+footer .footer-item .social-icons .fab{
+    width: 32px;
+    height: 32px;
+    color: #969BAB;
+}
+footer .footer-item p{
+    margin: auto;
+    text-align: center;  
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*--------------------
+     media queries 
+----------------------*/
+
+/* mobile device */
+
+@media only screen and (max-width:688px)
+{
+
+    /* header */
+    .flexible-container{
+     flex-direction: column;
+       row-gap: 50px;
+    }
+    .flexible-container .first{
+        padding-left: 15px;
+    }
+    
+    .flexible-container .second{
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    
+    .half-width{       
+        width: 100%;
+    }
+
+    .half-width h1{        
+        font-size:36px;            
+    }    
+
+    .half-width img{
+        width: 329px;
+        height: 259px;
+    }
+
+    /* main */
+
+    .players{
+        margin: 47px 15px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap:30px ;
+        grid-row-gap:30px ;
+        justify-items: center;
+    }
+
+    /* footer */
+
+    footer .footer-item img{
+        width:271px;
+        height: 63px;
+    }
+
+  
+}
+
+
+
+/* ipad, tab device */
+
+@media only screen and (min-width:689px) and (max-width:992px)
+{
+    /* header */
+    .flexible-container{
+        flex-direction: column;
+          row-gap: 50px;
+       }
+       .flexible-container .first{
+           padding-left: 15px;
+       }
+       
+       .flexible-container .second{
+           padding-left: 15px;
+           padding-right: 0px;
+       }
+       
+       .half-width{       
+           width: 70%;
+       }
+   
+       .half-width h1{        
+           font-size:36px;            
+       }    
+   
+       .half-width img{
+           width: 400px;
+           height: 300px;
+       }
+
+   
+
+    /* main */
+
+    .players{
+        margin: 47px 15px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px 30px;        
+        justify-items: center;
+    }
+
+
+}
+
+
+
+
+
+
+
+
