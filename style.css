@@ -234,7 +234,7 @@ footer .footer-item p{
     }
     
     .half-width{       
-        width: 100%;
+        width: auto;
     }
 
     .half-width h1{        
@@ -250,7 +250,7 @@ footer .footer-item p{
 
     main{
         margin: 0;
-        width: 100%;        
+        width: auto;        
     }
 
     .players{
@@ -334,7 +334,7 @@ footer .footer-item p{
     /* main */
     main{
         margin: 0px;
-        width: 100%;
+        width: auto;
         
     }
 
