@@ -85,10 +85,11 @@ header{
 /* players */
 
 main{
-    margin: 70px 180px;
+    margin: 70px 150px;
 }
 
 .players{    
+   
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px 30px;    
@@ -249,8 +250,7 @@ footer .footer-item p{
 
     main{
         margin: 0;
-        width: 100%;
-        
+        width: 100%;        
     }
 
     .players{
@@ -263,8 +263,8 @@ footer .footer-item p{
     /* section */
 
     .section{
-       
-        width: 100%;
+        margin: 47px 15px;    
+        width: auto;
         border-radius: 5px;
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     }
@@ -275,6 +275,7 @@ footer .footer-item p{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-gap: 26px;       
+       
        
     }
 
@@ -338,7 +339,7 @@ footer .footer-item p{
     }
 
     .players{
-        margin: 47px 0px;  
+        margin: 47px 15px;  
         grid-gap: 30px 20px;      
         grid-template-columns: repeat(2,330px);
         justify-content: space-evenly;
@@ -347,8 +348,8 @@ footer .footer-item p{
      /* section */
 
      .section{       
-        width: 100%;
-       
+        margin: 47px 15px;    
+        width: auto;
         border-radius: 5px;
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     }
